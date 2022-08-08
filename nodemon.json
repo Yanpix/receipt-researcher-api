@@ -1,0 +1,9 @@
+{
+    "watch": "src/**/*.ts",
+    "execMap": {
+        "ts": "ts-node"
+    },
+    "events": {
+        "start": "clear && printf \"\\e[3J\""
+    }
+}
